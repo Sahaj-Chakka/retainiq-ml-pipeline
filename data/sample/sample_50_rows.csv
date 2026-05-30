@@ -1,0 +1,51 @@
+Hotel,Reservation_ID,Booking_Source,Primary_Guest_Name,Corporate_Name,Room_No,Room_Type,Pax,Payment_Mode,Check_In_Date,Check_Out_Date,Lead_Time_Days,Stayed_Room_Nights,Per_Room_Night_Charges,Total_Lodging_Amount,Total_Lodging_Taxes,Total_Amount,Paid_at_Hotel_Amount,Paid_To_OTA_Amount,Guest_Invoice_Issued_By,Is_Cancelled
+Median Inn,R100000,OTA,Guest_031983,makemytrip,309,Maple (Deluxe),2(A) 0(C),Prepaid,2023-08-07,2023-08-08,26,0,3441.35,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100001,OTA,Guest_136956,makemytrip,203,Maple (Deluxe),1(A) 0(C),Prepaid,2022-11-20,2022-11-21,3,1,3183.25,3183.25,381.99,3565.24,0.0,3565.24,Treebo,0
+Median Inn,R100002,Corporate,Guest_156110,TRAVLOGUE INDIA,205,Maple (Deluxe),2(A) 0(C),Prepaid,2023-09-28,2023-10-01,10,3,2944.51,8833.53,1060.02,9893.55,9893.55,0.0,Hotel,0
+Median Inn,R100003,OTA,Guest_052258,booking-com,210,Maple (Deluxe),3(A) 0(C),Prepaid,2023-06-01,2023-06-02,37,0,2519.83,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100004,OTA,Guest_222013,agoda,310,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2022-03-18,2022-03-19,16,1,2558.6,2558.6,307.03,2865.63,0.0,2865.63,Treebo,0
+Median Inn,R100005,OTA,Guest_005440,goibibo,210,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-12-16,2023-12-17,15,0,2967.36,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100006,Walk - In,Guest_064125,,210,Maple (Deluxe),3(A) 0(C),Pay at Hotel,2023-07-29,2023-07-30,41,1,3202.24,3202.24,384.27,3586.51,3586.51,0.0,Hotel,0
+Median Inn,R100007,OTA,Guest_257870,goibibo,203,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-08-16,2023-08-18,40,2,2572.61,5145.22,617.43,5762.65,0.0,5762.65,Treebo,0
+Median Inn,R100008,OTA,Guest_000775,booking-com,202,Maple (Deluxe),2(A) 0(C),Prepaid,2022-04-09,2022-04-10,24,1,2643.28,2643.28,317.19,2960.47,0.0,2960.47,Treebo,0
+Median Inn,R100009,Corporate,Guest_136946,IIFL FINANCE LIMITED,302,Maple (Deluxe),1(A) 0(C),Prepaid,2022-11-29,2022-12-01,13,2,2402.4,4804.8,576.58,5381.38,5381.38,0.0,Hotel,0
+Median Inn,R100010,OTA,Guest_000309,makemytrip,206,Maple (Deluxe),1(A) 0(C),Prepaid,2022-10-06,2022-10-07,31,0,3047.84,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100011,Web,Guest_265578,,210,Maple (Deluxe),1(A) 0(C),Prepaid,2023-11-11,2023-11-12,18,1,3294.7,3294.7,395.36,3690.06,0.0,3690.06,Treebo,0
+Median Inn,R100012,Walk - In,Guest_134017,,202,Maple (Deluxe),1(A) 0(C),Prepaid,2023-04-17,2023-04-19,11,2,3313.57,6627.14,795.26,7422.4,7422.4,0.0,Hotel,0
+Median Inn,R100013,OTA,Guest_050660,booking-com,205,Maple (Deluxe),2(A) 0(C),Prepaid,2023-09-08,2023-09-10,20,2,3639.51,7279.02,873.48,8152.5,0.0,8152.5,Treebo,0
+Median Inn,R100014,OTA,Guest_191106,makemytrip,201,Maple (Deluxe),2(A) 0(C),Prepaid,2022-11-24,2022-11-29,9,5,2652.58,13262.9,1591.55,14854.45,0.0,14854.45,Treebo,0
+Median Inn,R100015,OTA,Guest_281698,agoda,204,Mahogany (Premium),2(A) 0(C),Pay at Hotel,2022-07-03,2022-07-04,36,1,4983.46,4983.46,598.02,5581.48,0.0,5581.48,Treebo,0
+Median Inn,R100016,Walk - In,Guest_208997,,206,Maple (Deluxe),1(A) 0(C),Prepaid,2023-02-16,2023-02-17,19,1,2619.05,2619.05,314.29,2933.34,2933.34,0.0,Hotel,0
+Median Inn,R100017,OTA,Guest_123376,goibibo,206,Maple (Deluxe),2(A) 0(C),Prepaid,2022-02-23,2022-02-24,16,0,3006.69,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100018,OTA,Guest_188873,goibibo,205,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-09-11,2023-09-13,49,2,3206.88,6413.76,769.65,7183.41,0.0,7183.41,Treebo,0
+Median Inn,R100019,Corporate,Guest_104075,TRAVLOGUE INDIA,302,Maple (Deluxe),2(A) 1(C),Prepaid,2023-04-11,2023-04-12,3,0,3145.09,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100020,Corporate,Guest_275316,TRAVLOGUE INDIA,310,Maple (Deluxe),2(A) 2(C),Pay at Hotel,2023-07-27,2023-07-29,33,2,2331.87,4663.74,559.65,5223.39,5223.39,0.0,Hotel,0
+Median Inn,R100021,OTA,Guest_224152,goibibo,210,Mahogany (Premium),2(A) 1(C),Prepaid,2022-09-26,2022-09-27,38,1,4858.42,4858.42,583.01,5441.43,0.0,5441.43,Treebo,0
+Median Inn,R100022,OTA,Guest_103293,agoda,208,Mahogany (Premium),1(A) 0(C),Prepaid,2023-12-12,2023-12-16,39,4,4751.86,19007.44,2280.89,21288.33,0.0,21288.33,Treebo,0
+Median Inn,R100023,Corporate,Guest_062643,JETWAYS TRAVELS,309,Maple (Deluxe),2(A) 0(C),Prepaid,2023-10-20,2023-10-25,10,5,3059.61,15298.05,1835.77,17133.82,17133.82,0.0,Hotel,0
+Median Inn,R100024,Corporate,Guest_137345,IIFL FINANCE LIMITED,210,Maple (Deluxe),2(A) 1(C),Pay at Hotel,2023-08-11,2023-08-14,37,3,3513.54,10540.62,1264.87,11805.49,11805.49,0.0,Hotel,0
+Median Inn,R100025,OTA,Guest_235222,makemytrip,201,Maple (Deluxe),2(A) 2(C),Prepaid,2022-05-29,2022-05-30,23,1,2731.8,2731.8,327.82,3059.62,0.0,3059.62,Treebo,0
+Median Inn,R100026,Web,Guest_090637,,303,Maple (Deluxe),2(A) 1(C),Prepaid,2022-12-10,2022-12-11,30,0,2769.0,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100027,OTA,Guest_088792,easemytrip,208,Maple (Deluxe),3(A) 0(C),Prepaid,2022-02-06,2022-02-07,18,0,3105.72,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100028,Corporate,Guest_071716,JETWAYS TRAVELS,204,Maple (Deluxe),1(A) 0(C),Prepaid,2022-04-23,2022-04-28,19,5,2716.1,13580.5,1629.66,15210.16,15210.16,0.0,Hotel,0
+Median Inn,R100029,Corporate,Guest_188770,INFOSYS,206,Maple (Deluxe),3(A) 0(C),Prepaid,2023-05-17,2023-05-18,5,1,2713.08,2713.08,325.57,3038.65,3038.65,0.0,Hotel,0
+Median Inn,R100030,Walk - In,Guest_006880,,302,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-07-16,2023-07-18,18,2,3006.73,6013.46,721.62,6735.08,6735.08,0.0,Hotel,0
+Median Inn,R100031,Walk - In,Guest_119696,,302,Maple (Deluxe),2(A) 0(C),Prepaid,2023-12-10,2023-12-11,14,1,2900.81,2900.81,348.1,3248.91,3248.91,0.0,Hotel,0
+Median Inn,R100032,OTA,Guest_008320,booking-com,206,Maple (Deluxe),3(A) 0(C),Pay at Hotel,2022-09-10,2022-09-11,44,0,3111.1,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100033,Travel Agent,Guest_184761,,206,Maple (Deluxe),1(A) 0(C),Prepaid,2022-10-05,2022-10-07,14,2,2633.94,5267.88,632.15,5900.03,0.0,5900.03,Treebo,0
+Median Inn,R100034,OTA,Guest_002690,easemytrip,302,Maple (Deluxe),2(A) 0(C),Prepaid,2022-12-11,2022-12-12,40,0,2709.33,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100035,OTA,Guest_122032,agoda,301,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2022-05-24,2022-05-25,17,0,2689.67,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100036,Travel Agent,Guest_114305,,302,Maple (Deluxe),2(A) 0(C),Prepaid,2022-04-10,2022-04-11,10,0,3882.92,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100037,OTA,Guest_151994,makemytrip,309,Maple (Deluxe),1(A) 0(C),Pay at Hotel,2022-12-16,2022-12-17,10,0,3159.38,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100038,Walk - In,Guest_146123,,310,Maple (Deluxe),2(A) 2(C),Prepaid,2022-07-03,2022-07-04,9,0,3739.01,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100039,Walk - In,Guest_130111,,204,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-05-03,2023-05-05,37,2,3297.59,6595.18,791.42,7386.6,7386.6,0.0,Hotel,0
+Median Inn,R100040,Corporate,Guest_040337,TATA TECHNOLOGIES,205,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2022-11-19,2022-11-21,7,2,2789.06,5578.12,669.37,6247.49,6247.49,0.0,Hotel,0
+Median Inn,R100041,OTA,Guest_166313,agoda,309,Maple (Deluxe),2(A) 0(C),Prepaid,2023-09-14,2023-09-15,26,0,2845.03,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100042,OTA,Guest_263139,agoda,302,Mahogany (Premium),2(A) 1(C),Pay at Hotel,2023-06-04,2023-06-05,27,0,4558.8,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100043,Walk - In,Guest_157382,,302,Maple (Deluxe),2(A) 1(C),Pay at Hotel,2022-09-02,2022-09-03,17,1,3294.76,3294.76,395.37,3690.13,3690.13,0.0,Hotel,0
+Median Inn,R100044,OTA,Guest_077652,agoda,202,Mahogany (Premium),1(A) 0(C),Prepaid,2023-09-14,2023-09-15,39,0,4303.09,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100045,Corporate,Guest_254556,IIFL FINANCE LIMITED,303,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-08-29,2023-08-30,8,0,2868.95,0.0,0.0,0.0,0.0,0.0,Treebo,1
+Median Inn,R100046,OTA,Guest_051694,goibibo,309,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2022-10-16,2022-10-17,3,1,3078.09,3078.09,369.37,3447.46,0.0,3447.46,Treebo,0
+Median Inn,R100047,OTA,Guest_222691,agoda,201,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2022-08-17,2022-08-22,16,5,3200.44,16002.2,1920.26,17922.46,0.0,17922.46,Treebo,0
+Median Inn,R100048,OTA,Guest_065154,goibibo,309,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2023-05-17,2023-05-18,42,1,2702.38,2702.38,324.29,3026.67,0.0,3026.67,Treebo,0
+Median Inn,R100049,OTA,Guest_204923,goibibo,210,Maple (Deluxe),2(A) 0(C),Pay at Hotel,2022-04-15,2022-04-16,22,0,3170.26,0.0,0.0,0.0,0.0,0.0,Treebo,1

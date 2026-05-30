@@ -1,0 +1,50 @@
+{
+  "n_guests": 62148,
+  "concentration": {
+    "top_10pct_revenue_share": 0.3487,
+    "top_18pct_revenue_share": 0.5239,
+    "top_20pct_revenue_share": 0.5601
+  },
+  "segment_profiles": [
+    {
+      "segment": 0,
+      "bookings": 2.09,
+      "total_revenue": 8568.25,
+      "avg_revenue": 4065.22,
+      "cancel_rate": 0.42,
+      "nights": 2.48,
+      "n_guests": 6276,
+      "share_of_guests": 0.101
+    },
+    {
+      "segment": 1,
+      "bookings": 1.0,
+      "total_revenue": 5927.66,
+      "avg_revenue": 5927.66,
+      "cancel_rate": 0.0,
+      "nights": 1.72,
+      "n_guests": 27660,
+      "share_of_guests": 0.445
+    },
+    {
+      "segment": 2,
+      "bookings": 1.0,
+      "total_revenue": 0.0,
+      "avg_revenue": 0.0,
+      "cancel_rate": 1.0,
+      "nights": 0.0,
+      "n_guests": 19768,
+      "share_of_guests": 0.318
+    },
+    {
+      "segment": 3,
+      "bookings": 1.12,
+      "total_revenue": 18280.16,
+      "avg_revenue": 16717.93,
+      "cancel_rate": 0.01,
+      "nights": 5.12,
+      "n_guests": 8444,
+      "share_of_guests": 0.136
+    }
+  ]
+}
