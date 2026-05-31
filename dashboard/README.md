@@ -19,6 +19,7 @@ link the published workbook from the main README.
 | `source_month_fact.csv` | booking_source × month | main fact table (revenue trend, source mix) |
 | `monthly_revenue.csv` | month | revenue line / forecast overlay |
 | `cancellation_by_source.csv` | booking_source | cancellation bar chart |
+| `lead_time_cancellation.csv` | lead-time bucket | cancellation-rate-by-lead-time bar |
 | `revenue_by_source.csv` | booking_source | revenue contribution |
 | `model_benchmark.csv` | model | model comparison table |
 

@@ -94,8 +94,8 @@ HTML = """<!DOCTYPE html>
     </div>
 
     <div class="card">
-      <h3>Room-type demand</h3><p class="cap">Deluxe dominates — a real pattern from the source project</p>
-      <div class="chartbox"><canvas id="roomDonut"></canvas></div>
+      <h3>Cancellation rate by room type</h3><p class="cap">Does the premium room cancel differently? (an actual insight, vs a demand split)</p>
+      <div class="chartbox"><canvas id="roomBar"></canvas></div>
     </div>
 
     <div class="card">
@@ -104,8 +104,18 @@ HTML = """<!DOCTYPE html>
     </div>
 
     <div class="card">
+      <h3>Cancellation rate by lead time</h3><p class="cap">Risk climbs steeply the further ahead a guest books</p>
+      <div class="chartbox"><canvas id="leadBar"></canvas></div>
+    </div>
+
+    <div class="card">
       <h3>Revenue share by source</h3><p class="cap">Corporate punches above its booking volume</p>
       <div class="chartbox"><canvas id="revSource"></canvas></div>
+    </div>
+
+    <div class="card wide">
+      <h3>Guest tiers (RFM segmentation)</h3><p class="cap">Each tier maps to a CRM action — VIP retain, At-Risk re-engage, New nurture</p>
+      <div class="chartbox"><canvas id="rfmBar"></canvas></div>
     </div>
 
     <div class="card wide">
@@ -137,8 +147,8 @@ const cards = [
   ['Bookings', Intl.NumberFormat('en-IN').format(k.bookings)],
   ['Cancellation rate', (k.cancellation_rate*100).toFixed(1)+'<small>%</small>'],
   ['Total revenue', inr(k.total_revenue)],
-  ['Avg booking', '₹'+Intl.NumberFormat('en-IN').format(k.avg_booking_value)],
-  ['Best cancel AUC', k.best_cancel_auc.toFixed(3)+'<small> '+k.best_cancel_model.split(' ')[0]+'</small>'],
+  ['Logistic AUC', k.logit_auc.toFixed(3)+'<small> @thr '+k.logit_threshold+'</small>'],
+  ['Best ML AUC', k.best_cancel_auc.toFixed(3)+'<small> '+k.best_cancel_model.split(' ')[0]+'</small>'],
   ['Revenue model R²', k.best_revenue_r2.toFixed(3)],
   ['Forecast vs baseline', '−'+k.forecast_improvement.toFixed(0)+'<small>% err</small>'],
   ['Top 18% guests', (k.top18_revenue_share*100).toFixed(0)+'<small>% rev</small>'],
@@ -160,10 +170,25 @@ new Chart(cancelBar,{type:'bar',data:{labels:DATA.cancellation_by_source.map(d=>
   options:{indexAxis:'y',plugins:{legend:{display:false}},
     scales:{x:{ticks:{callback:v=>v+'%'}}},maintainAspectRatio:false}});
 
-// Room donut
-new Chart(roomDonut,{type:'doughnut',data:{labels:DATA.room_mix.map(d=>d.room_type),
-  datasets:[{data:DATA.room_mix.map(d=>d.pct),backgroundColor:[C.accent,C.navy],borderColor:'#161b22',borderWidth:3}]},
-  options:{cutout:'62%',plugins:{legend:{position:'bottom'}},maintainAspectRatio:false}});
+// Cancellation by room type
+new Chart(roomBar,{type:'bar',data:{labels:DATA.cancellation_by_room.map(d=>d.room_type),
+  datasets:[{data:DATA.cancellation_by_room.map(d=>d.cancel_rate),
+    backgroundColor:[C.navy,C.accent],borderRadius:6}]},
+  options:{plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>v+'%'}}},maintainAspectRatio:false}});
+
+// Lead-time cancellation
+new Chart(leadBar,{type:'bar',data:{labels:DATA.lead_time.map(d=>d.bucket),
+  datasets:[{data:DATA.lead_time.map(d=>d.cancel_rate),
+    backgroundColor:['#3fb950','#4aa8ff','#d29922','#E85D04','#cf222e'],borderRadius:6}]},
+  options:{plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>v+'%'}}},maintainAspectRatio:false}});
+
+// RFM tiers — revenue share
+new Chart(rfmBar,{type:'bar',data:{labels:DATA.rfm_tiers.map(d=>d.Tier),
+  datasets:[
+    {label:'% of guests',  data:DATA.rfm_tiers.map(d=>d.pct_guests),  backgroundColor:C.navy,borderRadius:5},
+    {label:'% of revenue', data:DATA.rfm_tiers.map(d=>d.pct_revenue), backgroundColor:C.accent,borderRadius:5}
+  ]},
+  options:{plugins:{legend:{position:'bottom'}},scales:{y:{ticks:{callback:v=>v+'%'}}},maintainAspectRatio:false}});
 
 // Pareto
 new Chart(pareto,{type:'line',data:{labels:DATA.pareto.map(d=>(d.x*100).toFixed(0)),

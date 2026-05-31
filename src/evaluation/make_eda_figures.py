@@ -44,12 +44,14 @@ def main():
     fig.tight_layout(); fig.savefig(FIGURES / "monthly_revenue.png"); plt.close(fig)
 
     # 3. Room type mix
-    rt = df["Room_Type"].value_counts(normalize=True)
-    fig, ax = plt.subplots(figsize=(5, 5))
-    ax.pie(rt.values, labels=rt.index, autopct="%1.1f%%",
-           colors=[ORANGE, NAVY], startangle=90, wedgeprops={"width": 0.45})
-    ax.set_title("Room-type demand mix")
-    fig.tight_layout(); fig.savefig(FIGURES / "room_mix.png"); plt.close(fig)
+    # Cancellation rate by room type (more insightful than a demand donut)
+    rt_cancel = df.groupby("Room_Type_Reserved")["Is_Cancelled"].mean().sort_values()
+    fig, ax = plt.subplots(figsize=(6, 4))
+    bars = ax.bar(rt_cancel.index, rt_cancel.values * 100, color=[NAVY, ORANGE], width=0.5)
+    ax.bar_label(bars, fmt="%.1f%%", padding=3)
+    ax.set_title("Cancellation rate by room type")
+    ax.set_ylabel("Cancellation rate (%)")
+    fig.tight_layout(); fig.savefig(FIGURES / "cancellation_by_room.png"); plt.close(fig)
 
     # 4. Revenue concentration (Pareto)
     g = df.groupby("Primary_Guest_Name")["Total_Amount"].sum().sort_values(ascending=False)

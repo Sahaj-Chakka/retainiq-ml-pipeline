@@ -1,170 +1,195 @@
 {
   "kpis": {
     "bookings": 70000,
-    "cancellation_rate": 0.362,
-    "total_revenue": 372091147,
-    "avg_booking_value": 8333,
+    "cancellation_rate": 0.304,
+    "total_revenue": 457953663,
+    "avg_booking_value": 9396,
+    "logit_auc": 0.8402,
+    "logit_threshold": 0.3,
     "best_cancel_model": "Gradient Boosting",
-    "best_cancel_auc": 0.7288,
-    "best_revenue_r2": 0.9674,
-    "forecast_improvement": 33.45,
-    "top18_revenue_share": 0.5239
+    "best_cancel_auc": 0.8462,
+    "best_revenue_r2": 0.9626,
+    "forecast_improvement": 22.44,
+    "top18_revenue_share": 0.495,
+    "optimal_overbook": 1
   },
   "monthly_revenue": [
     {
       "month": "2022-01",
-      "revenue": 12771659.56
+      "revenue": 15707958.5
     },
     {
       "month": "2022-02",
-      "revenue": 11732133.98
+      "revenue": 14791835.67
     },
     {
       "month": "2022-03",
-      "revenue": 15661080.91
+      "revenue": 19332621.53
     },
     {
       "month": "2022-04",
-      "revenue": 23204526.33
+      "revenue": 27618656.73
     },
     {
       "month": "2022-05",
-      "revenue": 9584378.11
+      "revenue": 11308978.09
     },
     {
       "month": "2022-06",
-      "revenue": 8643127.21
+      "revenue": 10987522.14
     },
     {
       "month": "2022-07",
-      "revenue": 14925399.58
+      "revenue": 18669476.9
     },
     {
       "month": "2022-08",
-      "revenue": 15965553.09
+      "revenue": 19082124.11
     },
     {
       "month": "2022-09",
-      "revenue": 21152091.36
+      "revenue": 26458986.01
     },
     {
       "month": "2022-10",
-      "revenue": 18611018.28
+      "revenue": 22553909.72
     },
     {
       "month": "2022-11",
-      "revenue": 15067238.2
+      "revenue": 17875883.12
     },
     {
       "month": "2022-12",
-      "revenue": 17230915.27
+      "revenue": 21657930.7
     },
     {
       "month": "2023-01",
-      "revenue": 13169916.11
+      "revenue": 16154524.29
     },
     {
       "month": "2023-02",
-      "revenue": 11851108.51
+      "revenue": 15612751.12
     },
     {
       "month": "2023-03",
-      "revenue": 15180414.78
+      "revenue": 18697123.04
     },
     {
       "month": "2023-04",
-      "revenue": 22171309.88
+      "revenue": 27523957.56
     },
     {
       "month": "2023-05",
-      "revenue": 9885322.87
+      "revenue": 11901001.12
     },
     {
       "month": "2023-06",
-      "revenue": 9192517.21
+      "revenue": 11425742.43
     },
     {
       "month": "2023-07",
-      "revenue": 14943702.83
+      "revenue": 18070196.6
     },
     {
       "month": "2023-08",
-      "revenue": 17162462.91
+      "revenue": 20359866.65
     },
     {
       "month": "2023-09",
-      "revenue": 21960826.58
+      "revenue": 27659935.61
     },
     {
       "month": "2023-10",
-      "revenue": 19376099.42
+      "revenue": 23089112.69
     },
     {
       "month": "2023-11",
-      "revenue": 14730305.24
+      "revenue": 18975650.27
     },
     {
       "month": "2023-12",
-      "revenue": 17918039.55
+      "revenue": 22437918.57
     }
   ],
   "cancellation_by_source": [
     {
       "booking_source": "Web",
-      "cancellation_rate": 0.5252881674900024
+      "cancellation_rate": 0.5062338273347448
     },
     {
       "booking_source": "OTA",
-      "cancellation_rate": 0.49542654470785885
+      "cancellation_rate": 0.4804617012009209
     },
     {
       "booking_source": "Travel Agent",
-      "cancellation_rate": 0.36675603217158176
+      "cancellation_rate": 0.328686327077748
     },
     {
       "booking_source": "Corporate",
-      "cancellation_rate": 0.19004234569485437
+      "cancellation_rate": 0.07237264211471833
     },
     {
-      "booking_source": "Walk - In",
-      "cancellation_rate": 0.17519716723000162
+      "booking_source": "Direct / Front Desk",
+      "cancellation_rate": 0.05649444712699179
     }
   ],
   "revenue_by_source": [
     {
       "booking_source": "OTA",
-      "revenue": 128776635.29,
-      "pct_of_revenue": 34.6
+      "revenue": 150779100.83,
+      "pct_of_revenue": 32.9
     },
     {
       "booking_source": "Corporate",
-      "revenue": 116894181.38,
-      "pct_of_revenue": 31.4
+      "revenue": 148256484.12,
+      "pct_of_revenue": 32.4
     },
     {
-      "booking_source": "Walk - In",
-      "revenue": 81201330.53,
-      "pct_of_revenue": 21.8
+      "booking_source": "Direct / Front Desk",
+      "revenue": 106769127.51,
+      "pct_of_revenue": 23.3
     },
     {
       "booking_source": "Travel Agent",
-      "revenue": 28834267.07,
-      "pct_of_revenue": 7.7
+      "revenue": 33724987.73,
+      "pct_of_revenue": 7.4
     },
     {
       "booking_source": "Web",
-      "revenue": 16384733.5,
-      "pct_of_revenue": 4.4
+      "revenue": 18423962.98,
+      "pct_of_revenue": 4.0
     }
   ],
-  "room_mix": [
-    {
-      "room_type": "Maple (Deluxe)",
-      "pct": 91.9
-    },
+  "cancellation_by_room": [
     {
       "room_type": "Mahogany (Premium)",
-      "pct": 8.1
+      "cancel_rate": 30.6
+    },
+    {
+      "room_type": "Maple (Deluxe)",
+      "cancel_rate": 30.4
+    }
+  ],
+  "lead_time": [
+    {
+      "bucket": "0-7d",
+      "cancel_rate": 11.1
+    },
+    {
+      "bucket": "8-14d",
+      "cancel_rate": 27.6
+    },
+    {
+      "bucket": "15-30d",
+      "cancel_rate": 41.3
+    },
+    {
+      "bucket": "31-60d",
+      "cancel_rate": 63.2
+    },
+    {
+      "bucket": "60d+",
+      "cancel_rate": 76.1
     }
   ],
   "pareto": [
@@ -174,287 +199,287 @@
     },
     {
       "x": 0.0101,
-      "y": 0.0555
+      "y": 0.0513
     },
     {
       "x": 0.0202,
-      "y": 0.0985
+      "y": 0.0915
     },
     {
       "x": 0.0303,
-      "y": 0.1373
+      "y": 0.1278
     },
     {
       "x": 0.0404,
-      "y": 0.1733
+      "y": 0.1614
     },
     {
       "x": 0.0505,
-      "y": 0.2071
+      "y": 0.193
     },
     {
       "x": 0.0606,
-      "y": 0.2389
+      "y": 0.2229
     },
     {
       "x": 0.0707,
-      "y": 0.269
+      "y": 0.2514
     },
     {
       "x": 0.0808,
-      "y": 0.2977
+      "y": 0.2785
     },
     {
       "x": 0.0909,
-      "y": 0.3251
+      "y": 0.3045
     },
     {
       "x": 0.101,
-      "y": 0.3513
+      "y": 0.3294
     },
     {
       "x": 0.1111,
-      "y": 0.3765
+      "y": 0.3534
     },
     {
       "x": 0.1212,
-      "y": 0.4006
+      "y": 0.3764
     },
     {
       "x": 0.1313,
-      "y": 0.4239
+      "y": 0.3985
     },
     {
       "x": 0.1414,
-      "y": 0.4464
+      "y": 0.4198
     },
     {
       "x": 0.1515,
-      "y": 0.4679
+      "y": 0.4404
     },
     {
       "x": 0.1616,
-      "y": 0.4885
+      "y": 0.4604
     },
     {
       "x": 0.1717,
-      "y": 0.5083
+      "y": 0.4797
     },
     {
       "x": 0.1818,
-      "y": 0.5273
+      "y": 0.4983
     },
     {
       "x": 0.1919,
-      "y": 0.5458
+      "y": 0.5164
     },
     {
       "x": 0.202,
-      "y": 0.5637
+      "y": 0.534
     },
     {
       "x": 0.2121,
-      "y": 0.5813
+      "y": 0.5511
     },
     {
       "x": 0.2222,
-      "y": 0.5984
+      "y": 0.5677
     },
     {
       "x": 0.2323,
-      "y": 0.6151
+      "y": 0.5839
     },
     {
       "x": 0.2424,
-      "y": 0.6314
+      "y": 0.5996
     },
     {
       "x": 0.2525,
-      "y": 0.6472
+      "y": 0.6148
     },
     {
       "x": 0.2626,
-      "y": 0.6624
+      "y": 0.6297
     },
     {
       "x": 0.2727,
-      "y": 0.6769
+      "y": 0.6441
     },
     {
       "x": 0.2828,
-      "y": 0.6906
+      "y": 0.6582
     },
     {
       "x": 0.2929,
-      "y": 0.7037
+      "y": 0.6718
     },
     {
       "x": 0.303,
-      "y": 0.7164
+      "y": 0.6849
     },
     {
       "x": 0.3131,
-      "y": 0.7288
+      "y": 0.6976
     },
     {
       "x": 0.3232,
-      "y": 0.741
+      "y": 0.7099
     },
     {
       "x": 0.3333,
-      "y": 0.7529
+      "y": 0.7219
     },
     {
       "x": 0.3434,
-      "y": 0.7646
+      "y": 0.7336
     },
     {
       "x": 0.3535,
-      "y": 0.7762
+      "y": 0.745
     },
     {
       "x": 0.3636,
-      "y": 0.7875
+      "y": 0.7561
     },
     {
       "x": 0.3737,
-      "y": 0.7987
+      "y": 0.767
     },
     {
       "x": 0.3838,
-      "y": 0.8096
+      "y": 0.7776
     },
     {
       "x": 0.3939,
-      "y": 0.8204
+      "y": 0.788
     },
     {
       "x": 0.404,
-      "y": 0.8309
+      "y": 0.7982
     },
     {
       "x": 0.4141,
-      "y": 0.8413
+      "y": 0.8082
     },
     {
       "x": 0.4242,
-      "y": 0.8513
+      "y": 0.818
     },
     {
-      "x": 0.4344,
-      "y": 0.861
+      "x": 0.4343,
+      "y": 0.8276
     },
     {
       "x": 0.4444,
-      "y": 0.8702
+      "y": 0.8369
     },
     {
       "x": 0.4545,
-      "y": 0.8788
+      "y": 0.8461
     },
     {
-      "x": 0.4646,
-      "y": 0.8863
+      "x": 0.4647,
+      "y": 0.8551
     },
     {
       "x": 0.4748,
-      "y": 0.8931
+      "y": 0.8638
     },
     {
-      "x": 0.4848,
-      "y": 0.8996
+      "x": 0.4849,
+      "y": 0.8723
     },
     {
-      "x": 0.4949,
-      "y": 0.906
+      "x": 0.495,
+      "y": 0.8805
     },
     {
-      "x": 0.5051,
-      "y": 0.9123
+      "x": 0.505,
+      "y": 0.8883
     },
     {
-      "x": 0.5152,
-      "y": 0.9185
+      "x": 0.5151,
+      "y": 0.8954
     },
     {
       "x": 0.5252,
-      "y": 0.9245
+      "y": 0.902
     },
     {
-      "x": 0.5354,
-      "y": 0.9305
+      "x": 0.5353,
+      "y": 0.9082
     },
     {
       "x": 0.5455,
-      "y": 0.9364
+      "y": 0.9143
     },
     {
       "x": 0.5556,
-      "y": 0.9422
+      "y": 0.9201
     },
     {
-      "x": 0.5656,
-      "y": 0.9479
+      "x": 0.5657,
+      "y": 0.9258
     },
     {
       "x": 0.5758,
-      "y": 0.9536
+      "y": 0.9314
     },
     {
       "x": 0.5859,
-      "y": 0.9591
+      "y": 0.9368
     },
     {
       "x": 0.596,
-      "y": 0.9646
+      "y": 0.9422
     },
     {
       "x": 0.6061,
-      "y": 0.9701
+      "y": 0.9474
     },
     {
       "x": 0.6162,
-      "y": 0.9754
+      "y": 0.9526
     },
     {
       "x": 0.6263,
-      "y": 0.9806
+      "y": 0.9576
     },
     {
       "x": 0.6364,
-      "y": 0.9857
+      "y": 0.9626
     },
     {
       "x": 0.6465,
-      "y": 0.9907
+      "y": 0.9674
     },
     {
       "x": 0.6566,
-      "y": 0.9955
+      "y": 0.9722
     },
     {
       "x": 0.6667,
-      "y": 1.0
+      "y": 0.9769
     },
     {
       "x": 0.6768,
-      "y": 1.0
+      "y": 0.9815
     },
     {
       "x": 0.6869,
-      "y": 1.0
+      "y": 0.9859
     },
     {
       "x": 0.697,
-      "y": 1.0
+      "y": 0.9903
     },
     {
       "x": 0.7071,
-      "y": 1.0
+      "y": 0.9945
     },
     {
       "x": 0.7172,
-      "y": 1.0
+      "y": 0.9985
     },
     {
       "x": 0.7273,
@@ -572,113 +597,176 @@
   "cancel_benchmark": [
     {
       "Model": "Gradient Boosting",
-      "AUC": 0.7288,
-      "Accuracy": 0.6977,
-      "Precision": 0.6486,
-      "Recall": 0.3606,
-      "F1": 0.4635
+      "AUC": 0.8462,
+      "Accuracy": 0.7927,
+      "Precision": 0.7188,
+      "Recall": 0.5216,
+      "F1": 0.6045
     },
     {
       "Model": "Logistic Regression",
-      "AUC": 0.7262,
-      "Accuracy": 0.6901,
-      "Precision": 0.5952,
-      "Recall": 0.4504,
-      "F1": 0.5128
-    },
-    {
-      "Model": "Linear SVM",
-      "AUC": 0.7261,
-      "Accuracy": 0.6917,
-      "Precision": 0.6009,
-      "Recall": 0.4422,
-      "F1": 0.5095
+      "AUC": 0.8404,
+      "Accuracy": 0.7865,
+      "Precision": 0.6768,
+      "Recall": 0.5685,
+      "F1": 0.6179
     },
     {
       "Model": "XGBoost",
-      "AUC": 0.7246,
-      "Accuracy": 0.6962,
-      "Precision": 0.6404,
-      "Recall": 0.3671,
-      "F1": 0.4666
+      "AUC": 0.8402,
+      "Accuracy": 0.7885,
+      "Precision": 0.7034,
+      "Recall": 0.525,
+      "F1": 0.6012
     },
     {
       "Model": "LightGBM",
-      "AUC": 0.7203,
-      "Accuracy": 0.692,
-      "Precision": 0.6266,
-      "Recall": 0.3699,
-      "F1": 0.4652
+      "AUC": 0.8392,
+      "Accuracy": 0.7869,
+      "Precision": 0.7004,
+      "Recall": 0.5216,
+      "F1": 0.598
     },
     {
-      "Model": "Decision Tree",
-      "AUC": 0.7161,
-      "Accuracy": 0.6896,
-      "Precision": 0.6349,
-      "Recall": 0.3361,
-      "F1": 0.4395
-    },
-    {
-      "Model": "Naive Bayes",
-      "AUC": 0.6985,
-      "Accuracy": 0.6773,
-      "Precision": 0.5629,
-      "Recall": 0.4868,
-      "F1": 0.5221
-    },
-    {
-      "Model": "KNN (k=15)",
-      "AUC": 0.6932,
-      "Accuracy": 0.6791,
-      "Precision": 0.583,
-      "Recall": 0.4002,
-      "F1": 0.4746
+      "Model": "Linear SVM",
+      "AUC": 0.8386,
+      "Accuracy": 0.7852,
+      "Precision": 0.6766,
+      "Recall": 0.5611,
+      "F1": 0.6135
     },
     {
       "Model": "Random Forest",
-      "AUC": 0.6916,
-      "Accuracy": 0.6747,
-      "Precision": 0.5724,
-      "Recall": 0.4018,
-      "F1": 0.4721
+      "AUC": 0.838,
+      "Accuracy": 0.787,
+      "Precision": 0.7119,
+      "Recall": 0.5021,
+      "F1": 0.5889
+    },
+    {
+      "Model": "Decision Tree",
+      "AUC": 0.8329,
+      "Accuracy": 0.785,
+      "Precision": 0.7108,
+      "Recall": 0.4929,
+      "F1": 0.5821
+    },
+    {
+      "Model": "Naive Bayes",
+      "AUC": 0.8139,
+      "Accuracy": 0.7145,
+      "Precision": 0.5192,
+      "Recall": 0.8158,
+      "F1": 0.6345
+    },
+    {
+      "Model": "KNN (k=15)",
+      "AUC": 0.8104,
+      "Accuracy": 0.7633,
+      "Precision": 0.6477,
+      "Recall": 0.4842,
+      "F1": 0.5541
     }
   ],
   "revenue_benchmark": [
     {
       "Model": "XGBoost",
-      "R2": 0.9674,
-      "RMSE": 1009.5,
-      "MAE": 671.47
+      "R2": 0.9626,
+      "RMSE": 1215.14,
+      "MAE": 789.25
     },
     {
       "Model": "LightGBM",
-      "R2": 0.9671,
-      "RMSE": 1014.43,
-      "MAE": 673.52
+      "R2": 0.9621,
+      "RMSE": 1222.67,
+      "MAE": 792.89
     },
     {
       "Model": "Random Forest",
-      "R2": 0.9615,
-      "RMSE": 1096.36,
-      "MAE": 720.1
-    },
-    {
-      "Model": "Lasso",
-      "R2": 0.9465,
-      "RMSE": 1292.24,
-      "MAE": 827.02
+      "R2": 0.9554,
+      "RMSE": 1327.34,
+      "MAE": 861.79
     },
     {
       "Model": "Linear Regression",
-      "R2": 0.9465,
-      "RMSE": 1292.25,
-      "MAE": 827.07
+      "R2": 0.9368,
+      "RMSE": 1579.28,
+      "MAE": 1036.53
+    },
+    {
+      "Model": "Lasso",
+      "R2": 0.9368,
+      "RMSE": 1579.28,
+      "MAE": 1036.45
     },
     {
       "Model": "Ridge",
-      "R2": 0.9465,
-      "RMSE": 1292.25,
-      "MAE": 827.04
+      "R2": 0.9368,
+      "RMSE": 1579.29,
+      "MAE": 1036.5
     }
-  ]
+  ],
+  "rfm_tiers": [
+    {
+      "Tier": "VIP",
+      "n_guests": 4923,
+      "avg_revenue": 19147.17,
+      "total_revenue": 94261510.04,
+      "avg_recency": 136.12,
+      "avg_frequency": 1.57,
+      "avg_cancel": 0.03,
+      "pct_guests": 11.0,
+      "pct_revenue": 20.6,
+      "recommended_action": "Personalised loyalty reward + early access to offers"
+    },
+    {
+      "Tier": "At Risk",
+      "n_guests": 10282,
+      "avg_revenue": 9974.6,
+      "total_revenue": 102558868.64,
+      "avg_recency": 563.95,
+      "avg_frequency": 1.06,
+      "avg_cancel": 0.04,
+      "pct_guests": 22.9,
+      "pct_revenue": 22.4,
+      "recommended_action": "Proactive win-back email within 30 days"
+    },
+    {
+      "Tier": "New",
+      "n_guests": 5130,
+      "avg_revenue": 9438.58,
+      "total_revenue": 48419904.34,
+      "avg_recency": 203.14,
+      "avg_frequency": 1.0,
+      "avg_cancel": 0.04,
+      "pct_guests": 11.4,
+      "pct_revenue": 10.6,
+      "recommended_action": "Welcome sequence + incentive for second stay"
+    },
+    {
+      "Tier": "Lapsed",
+      "n_guests": 17574,
+      "avg_revenue": 9255.49,
+      "total_revenue": 162656017.01,
+      "avg_recency": 400.68,
+      "avg_frequency": 1.02,
+      "avg_cancel": 0.03,
+      "pct_guests": 39.2,
+      "pct_revenue": 35.5,
+      "recommended_action": "Reactivation offer or remove from active CRM"
+    },
+    {
+      "Tier": "Loyal",
+      "n_guests": 6943,
+      "avg_revenue": 7209.76,
+      "total_revenue": 50057363.14,
+      "avg_recency": 139.13,
+      "avg_frequency": 1.02,
+      "avg_cancel": 0.03,
+      "pct_guests": 15.5,
+      "pct_revenue": 10.9,
+      "recommended_action": "Targeted upsell (room upgrade, meal plan)"
+    }
+  ],
+  "n_significant_vars": 11
 }

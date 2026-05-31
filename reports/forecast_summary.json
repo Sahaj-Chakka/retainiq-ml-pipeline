@@ -1,7 +1,0 @@
-{
-  "prophet_rmse": 97115.08,
-  "prophet_mae": 75421.56,
-  "prophet_mape": 0.1554,
-  "baseline_rmse": 145929.78,
-  "improvement_pct": 33.45
-}

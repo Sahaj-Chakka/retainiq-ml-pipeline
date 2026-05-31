@@ -1,6 +1,0 @@
-lead_bucket,cancellation_rate,bookings
-0–7 days,0.1115,21095
-8–14 days,0.2759,11702
-15–30 days,0.413,18354
-31–60 days,0.6315,10570
-60+ days,0.7608,1367

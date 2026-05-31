@@ -21,7 +21,8 @@ RANDOM_STATE = 42
 BOOKING_SOURCES = ["OTA", "Corporate", "Walk - In", "Travel Agent", "Web"]
 ROOM_TYPES      = ["Maple (Deluxe)", "Mahogany (Premium)"]
 HOT_ROOMS       = [202, 206, 208, 210, 301, 302, 309]
-CATEGORICAL     = ["Booking_Source", "Room_Type", "Pax", "Payment_Mode", "Corporate_Name"]
+CATEGORICAL     = ["Booking_Source", "Market_Segment", "Room_Type_Reserved",
+                   "Meal_Plan", "Payment_Mode", "Corporate_Name"]
 
 
 def get_logger(name: str = "retainiq", level=logging.INFO) -> logging.Logger:

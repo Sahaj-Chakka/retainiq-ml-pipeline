@@ -1,72 +1,32 @@
-# ==========================================
-# Operating System Files
-# ==========================================
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Trash-*
+# Large generated data (regenerate with the data generator)
+data/synthetic/*.csv
+!data/sample/
 
-# ==========================================
-# Python & Virtual Environments
-# ==========================================
+# Models & reports artifacts — trained model binaries, not source code
+/models/
+reports/*.csv
+reports/*.json
+
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Environments
-.env
-.venv
-env/
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
-
-# ==========================================
-# Jupyter Notebooks
-# ==========================================
 .ipynb_checkpoints/
 
-# ==========================================
-# Project-Specific Data & Models
-# ==========================================
-# Ignore ALL large data directories to prevent GitHub limits
-data/raw/*
-data/processed/*
+# Env & OS
+.env
+.DS_Store
 
-# Ignore large model weight files
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.pt
-models/*.pth
+# Prophet/Stan
+*.stan
+*.pkl
 
-# ==========================================
-# IDEs & Editors
-# ==========================================
-.vscode/
-.idea/
-*.swp
-*.swo
+# R generated outputs & history
+R/*.png
+.Rhistory
+.RData
+.Rproj.user/
+
+# Pytest cache
+.pytest_cache/

@@ -5,6 +5,7 @@ pyarrow>=16.0
 
 # ML
 scikit-learn>=1.5
+statsmodels>=0.14
 xgboost>=2.0
 lightgbm>=4.3
 
