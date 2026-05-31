@@ -1,0 +1,65 @@
+{
+  "tier_profiles": [
+    {
+      "Tier": "VIP",
+      "n_guests": 4923,
+      "avg_revenue": 19147.17,
+      "total_revenue": 94261510.04,
+      "avg_recency": 136.12,
+      "avg_frequency": 1.57,
+      "avg_cancel": 0.03,
+      "pct_guests": 11.0,
+      "pct_revenue": 20.6,
+      "recommended_action": "Personalised loyalty reward + early access to offers"
+    },
+    {
+      "Tier": "At Risk",
+      "n_guests": 10282,
+      "avg_revenue": 9974.6,
+      "total_revenue": 102558868.64,
+      "avg_recency": 563.95,
+      "avg_frequency": 1.06,
+      "avg_cancel": 0.04,
+      "pct_guests": 22.9,
+      "pct_revenue": 22.4,
+      "recommended_action": "Proactive win-back email within 30 days"
+    },
+    {
+      "Tier": "New",
+      "n_guests": 5130,
+      "avg_revenue": 9438.58,
+      "total_revenue": 48419904.34,
+      "avg_recency": 203.14,
+      "avg_frequency": 1.0,
+      "avg_cancel": 0.04,
+      "pct_guests": 11.4,
+      "pct_revenue": 10.6,
+      "recommended_action": "Welcome sequence + incentive for second stay"
+    },
+    {
+      "Tier": "Lapsed",
+      "n_guests": 17574,
+      "avg_revenue": 9255.49,
+      "total_revenue": 162656017.01,
+      "avg_recency": 400.68,
+      "avg_frequency": 1.02,
+      "avg_cancel": 0.03,
+      "pct_guests": 39.2,
+      "pct_revenue": 35.5,
+      "recommended_action": "Reactivation offer or remove from active CRM"
+    },
+    {
+      "Tier": "Loyal",
+      "n_guests": 6943,
+      "avg_revenue": 7209.76,
+      "total_revenue": 50057363.14,
+      "avg_recency": 139.13,
+      "avg_frequency": 1.02,
+      "avg_cancel": 0.03,
+      "pct_guests": 15.5,
+      "pct_revenue": 10.9,
+      "recommended_action": "Targeted upsell (room upgrade, meal plan)"
+    }
+  ],
+  "n_guests": 44852
+}

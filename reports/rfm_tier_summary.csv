@@ -1,0 +1,6 @@
+Tier,n_guests,avg_revenue,total_revenue,avg_recency,avg_frequency,avg_cancel,pct_guests,pct_revenue,recommended_action
+VIP,4923,19147.17,94261510.04,136.12,1.57,0.03,11.0,20.6,Personalised loyalty reward + early access to offers
+At Risk,10282,9974.6,102558868.64,563.95,1.06,0.04,22.9,22.4,Proactive win-back email within 30 days
+New,5130,9438.58,48419904.34,203.14,1.0,0.04,11.4,10.6,Welcome sequence + incentive for second stay
+Lapsed,17574,9255.49,162656017.01,400.68,1.02,0.03,39.2,35.5,Reactivation offer or remove from active CRM
+Loyal,6943,7209.76,50057363.14,139.13,1.02,0.03,15.5,10.9,"Targeted upsell (room upgrade, meal plan)"

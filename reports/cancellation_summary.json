@@ -1,78 +1,78 @@
 {
   "best_model": "Gradient Boosting",
-  "best_auc": 0.7288,
+  "best_auc": 0.8462,
   "benchmark": [
     {
       "Model": "Gradient Boosting",
-      "AUC": 0.7288,
-      "Accuracy": 0.6977,
-      "Precision": 0.6486,
-      "Recall": 0.3606,
-      "F1": 0.4635
+      "AUC": 0.8462,
+      "Accuracy": 0.7927,
+      "Precision": 0.7188,
+      "Recall": 0.5216,
+      "F1": 0.6045
     },
     {
       "Model": "Logistic Regression",
-      "AUC": 0.7262,
-      "Accuracy": 0.6901,
-      "Precision": 0.5952,
-      "Recall": 0.4504,
-      "F1": 0.5128
-    },
-    {
-      "Model": "Linear SVM",
-      "AUC": 0.7261,
-      "Accuracy": 0.6917,
-      "Precision": 0.6009,
-      "Recall": 0.4422,
-      "F1": 0.5095
+      "AUC": 0.8404,
+      "Accuracy": 0.7865,
+      "Precision": 0.6768,
+      "Recall": 0.5685,
+      "F1": 0.6179
     },
     {
       "Model": "XGBoost",
-      "AUC": 0.7246,
-      "Accuracy": 0.6962,
-      "Precision": 0.6404,
-      "Recall": 0.3671,
-      "F1": 0.4666
+      "AUC": 0.8402,
+      "Accuracy": 0.7885,
+      "Precision": 0.7034,
+      "Recall": 0.525,
+      "F1": 0.6012
     },
     {
       "Model": "LightGBM",
-      "AUC": 0.7203,
-      "Accuracy": 0.692,
-      "Precision": 0.6266,
-      "Recall": 0.3699,
-      "F1": 0.4652
+      "AUC": 0.8392,
+      "Accuracy": 0.7869,
+      "Precision": 0.7004,
+      "Recall": 0.5216,
+      "F1": 0.598
     },
     {
-      "Model": "Decision Tree",
-      "AUC": 0.7161,
-      "Accuracy": 0.6896,
-      "Precision": 0.6349,
-      "Recall": 0.3361,
-      "F1": 0.4395
-    },
-    {
-      "Model": "Naive Bayes",
-      "AUC": 0.6985,
-      "Accuracy": 0.6773,
-      "Precision": 0.5629,
-      "Recall": 0.4868,
-      "F1": 0.5221
-    },
-    {
-      "Model": "KNN (k=15)",
-      "AUC": 0.6932,
-      "Accuracy": 0.6791,
-      "Precision": 0.583,
-      "Recall": 0.4002,
-      "F1": 0.4746
+      "Model": "Linear SVM",
+      "AUC": 0.8386,
+      "Accuracy": 0.7852,
+      "Precision": 0.6766,
+      "Recall": 0.5611,
+      "F1": 0.6135
     },
     {
       "Model": "Random Forest",
-      "AUC": 0.6916,
-      "Accuracy": 0.6747,
-      "Precision": 0.5724,
-      "Recall": 0.4018,
-      "F1": 0.4721
+      "AUC": 0.838,
+      "Accuracy": 0.787,
+      "Precision": 0.7119,
+      "Recall": 0.5021,
+      "F1": 0.5889
+    },
+    {
+      "Model": "Decision Tree",
+      "AUC": 0.8329,
+      "Accuracy": 0.785,
+      "Precision": 0.7108,
+      "Recall": 0.4929,
+      "F1": 0.5821
+    },
+    {
+      "Model": "Naive Bayes",
+      "AUC": 0.8139,
+      "Accuracy": 0.7145,
+      "Precision": 0.5192,
+      "Recall": 0.8158,
+      "F1": 0.6345
+    },
+    {
+      "Model": "KNN (k=15)",
+      "AUC": 0.8104,
+      "Accuracy": 0.7633,
+      "Precision": 0.6477,
+      "Recall": 0.4842,
+      "F1": 0.5541
     }
   ]
 }

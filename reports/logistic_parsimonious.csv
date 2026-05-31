@@ -1,0 +1,13 @@
+,Coefficient,Odds_Ratio,p_value,sig
+const,-0.3957,0.6732,0.0,***
+Lead_Time_Days,0.0405,1.0413,0.0,***
+Previous_Cancellations,0.4164,1.5165,0.0,***
+Previous_Successful_Bookings,-0.3537,0.7021,0.0,***
+N_Special_Requests,-0.0979,0.9067,0.0,***
+is_peak_month,-0.1979,0.8204,0.0,***
+Booking_Source_Corporate,-1.1853,0.3057,0.0,***
+Booking_Source_Direct / Front Desk,-1.3134,0.2689,0.0,***
+Booking_Source_Travel Agent,-0.7171,0.4882,0.0,***
+Booking_Source_Web,0.1156,1.1225,0.0013,**
+Payment_Mode_Pay at Hotel,-1.0406,0.3533,0.0,***
+Meal_Plan_No Meal,0.3187,1.3753,0.0,***

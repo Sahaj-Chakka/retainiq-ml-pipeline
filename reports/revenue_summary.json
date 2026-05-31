@@ -1,42 +1,42 @@
 {
   "best_model": "XGBoost",
-  "best_rmse": 1009.5,
+  "best_rmse": 1215.14,
   "benchmark": [
     {
       "Model": "XGBoost",
-      "R2": 0.9674,
-      "RMSE": 1009.5,
-      "MAE": 671.47
+      "R2": 0.9626,
+      "RMSE": 1215.14,
+      "MAE": 789.25
     },
     {
       "Model": "LightGBM",
-      "R2": 0.9671,
-      "RMSE": 1014.43,
-      "MAE": 673.52
+      "R2": 0.9621,
+      "RMSE": 1222.67,
+      "MAE": 792.89
     },
     {
       "Model": "Random Forest",
-      "R2": 0.9615,
-      "RMSE": 1096.36,
-      "MAE": 720.1
-    },
-    {
-      "Model": "Lasso",
-      "R2": 0.9465,
-      "RMSE": 1292.24,
-      "MAE": 827.02
+      "R2": 0.9554,
+      "RMSE": 1327.34,
+      "MAE": 861.79
     },
     {
       "Model": "Linear Regression",
-      "R2": 0.9465,
-      "RMSE": 1292.25,
-      "MAE": 827.07
+      "R2": 0.9368,
+      "RMSE": 1579.28,
+      "MAE": 1036.53
+    },
+    {
+      "Model": "Lasso",
+      "R2": 0.9368,
+      "RMSE": 1579.28,
+      "MAE": 1036.45
     },
     {
       "Model": "Ridge",
-      "R2": 0.9465,
-      "RMSE": 1292.25,
-      "MAE": 827.04
+      "R2": 0.9368,
+      "RMSE": 1579.29,
+      "MAE": 1036.5
     }
   ]
 }

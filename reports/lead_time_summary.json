@@ -1,0 +1,36 @@
+{
+  "lead_time_buckets": [
+    {
+      "lead_bucket": "0\u20137 days",
+      "cancellation_rate": 0.1115,
+      "bookings": 21095
+    },
+    {
+      "lead_bucket": "8\u201314 days",
+      "cancellation_rate": 0.2759,
+      "bookings": 11702
+    },
+    {
+      "lead_bucket": "15\u201330 days",
+      "cancellation_rate": 0.413,
+      "bookings": 18354
+    },
+    {
+      "lead_bucket": "31\u201360 days",
+      "cancellation_rate": 0.6315,
+      "bookings": 10570
+    },
+    {
+      "lead_bucket": "60+ days",
+      "cancellation_rate": 0.7608,
+      "bookings": 1367
+    }
+  ],
+  "policy_simulation": {
+    "target_bookings": 10339,
+    "current_cancel_n": 7065,
+    "current_cancel_rate": 0.6833,
+    "estimated_cancels_saved": 2618,
+    "estimated_revenue_recovered": 20989115.87
+  }
+}
