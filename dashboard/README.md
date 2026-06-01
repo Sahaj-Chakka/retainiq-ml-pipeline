@@ -5,7 +5,7 @@ Two ways to view the analytics:
 ## 1. Interactive HTML dashboard (no install)
 Open [`index.html`](index.html) in any browser, or host it free via **GitHub Pages**:
 1. Repo **Settings → Pages → Source: `main` branch → `/dashboard` folder** (or move `index.html` to repo root / `/docs`).
-2. Your dashboard goes live at `https://sahaj-chakka.github.io/retainiq-ml-pipeline/dashboard/`.
+2. Your dashboard goes live at [View the Interactive Dashboard](https://sahaj-chakka.github.io/retainiq-ml-pipeline/dashboard/).
 
 It's a single self-contained file — all data is inlined, charts render via Chart.js.
 
